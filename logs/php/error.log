@@ -12,3 +12,36 @@
 [05-Feb-2019 18:24:17 UTC] PHP Parse error:  syntax error, unexpected '$myname' (T_VARIABLE), expecting ',' or ';' in /app/public/experiment.php on line 2
 [05-Feb-2019 18:24:17 UTC] PHP Parse error:  syntax error, unexpected '$myname' (T_VARIABLE), expecting ',' or ';' in /app/public/experiment.php on line 2
 [05-Feb-2019 18:24:17 UTC] PHP Parse error:  syntax error, unexpected '$myname' (T_VARIABLE), expecting ',' or ';' in /app/public/experiment.php on line 2
+[05-Feb-2019 18:45:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-theme/index.php on line 5
+[05-Feb-2019 18:47:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-theme/index.php on line 5
+[05-Feb-2019 18:47:46 UTC] PHP Parse error:  syntax error, unexpected 'viseth' (T_STRING) in /app/public/wp-content/themes/fictional-theme/index.php on line 9
+[05-Feb-2019 19:17:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-theme/index.php on line 11
+[05-Feb-2019 19:29:18 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 284
+[06-Feb-2019 01:23:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_acction() in /app/public/wp-content/themes/fictional-theme/functions.php:7
+Stack trace:
+#0 /app/public/wp-settings.php(443): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/fictional-theme/functions.php on line 7
+[06-Feb-2019 01:24:42 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-theme/header.php on line 7
+[06-Feb-2019 01:24:42 UTC] PHP Warning:  header() expects at least 1 parameter, 0 given in /app/public/wp-content/themes/fictional-theme/header.php on line 7
+[06-Feb-2019 01:24:42 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/fictional-theme/header.php on line 7
+[06-Feb-2019 01:24:52 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-theme/header.php on line 7
+[06-Feb-2019 01:24:52 UTC] PHP Warning:  header() expects at least 1 parameter, 0 given in /app/public/wp-content/themes/fictional-theme/header.php on line 7
+[06-Feb-2019 01:24:52 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/fictional-theme/header.php on line 7
+[06-Feb-2019 01:24:59 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-theme/header.php on line 7
+[06-Feb-2019 01:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function head() in /app/public/wp-content/themes/fictional-theme/header.php:7
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-theme/page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-theme/header.php on line 7
+[06-Feb-2019 04:41:17 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-theme/functions.php on line 5

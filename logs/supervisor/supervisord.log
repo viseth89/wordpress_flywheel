@@ -109,3 +109,6 @@
 2019-02-05 18:14:36,852 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2019-02-05 18:14:36,852 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2019-02-05 18:14:36,852 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-06 01:54:04,542 INFO exited: varnishd (exit status 0; expected)
+2019-02-06 01:54:04,676 INFO spawned: 'varnishd' with pid 18908
+2019-02-06 01:54:05,695 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

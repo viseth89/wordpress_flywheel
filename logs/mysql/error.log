@@ -343,3 +343,4 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2019-02-05T18:14:36.849847Z 0 [Note] Event Scheduler: Loaded 0 events
 2019-02-05T18:14:36.856783Z 0 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2019-02-05T23:16:50.489157Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4542336ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
